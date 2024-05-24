@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: arial, helvetica, verdana, sans-serif;
+    background-color: #9c9;
+    width: 750px;
+    margin: 0 auto 0 auto;
+    font-size: 11pt;
+    color: #333;
+    padding: 5px;
+}
+
+.banner,
+.main {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.banner {
+    background: #008 url("pistonlogo.png") no-repeat scroll;
+    color: #fff;
+    height: 80px;
+    padding-left: 80px;
+    margin-bottom: 5px;
+}
+
+.style_toggler {
+    float: right;
+    margin: 3px 3px 0 0;
+    text-decoration: none;
+    color: #008;
+}
+
+.style_toggler:hover,
+.style_toggler:active {
+    font-weight: bold;
+}
+
+.navbar {
+    margin: 0.5em 0;
+}
+
+.prevnext {
+    float: right;
+}
+
+.ad {
+    position: absolute;
+    left: 765px;
+}
+
+.main {
+    position: relative;
+    background: #fff;
+    min-height: 600px;
+    padding: 15px;
+}
+
+.mm_ad,
+.ad {
+    position: absolute;
+    width: 160px;
+    left: 765px;
+}
+
+.ad {
+    top: 230px;
+}
+
+.footer {
+    clear: both;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 1em 0 0.5em 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer ul li {
+    margin: 0 1em 0 0;
+    display: inline;
+}
+
+.footer ul li a img {
+    margin-right: 1em;
+    vertical-align: middle;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu li div.ctr {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 240px;
+    width: 240px;
+}
+
+ul.menu li div.ctr * {
+    vertical-align: middle;
+}
+
+ul.menu li div.ctr a img {
+    display: inline;
+}
+
+.inactive {
+    color: #888;
+}
+
+.clear {
+    clear: both;
+}
+
+p,
+ul {
+    margin: 1em 0 1em 0;
+}
+
+ol li {
+    margin: 0.5em 0 0.5em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, Palatino, times, "times new roman", serif;
+    font-weight: normal;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #008;
+}
+
+h1 {
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+img {
+    border: none;
+}
+
+ul {
+    padding: 0 0 0 3em;
+}
+
+.main img,
+.main .aeplayer {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+blockquote {
+    margin-left: 3em;
+    margin-right: 3em;
+    font-style: italic;
+}
+
+ul.headedlist {
+    margin: 0;
+    padding-left: 2em;
+    list-style: none;
+}
+
+ul.headedlist li h4 {
+    margin: 0.75em 0 0 0;
+}
+
+ul.headedlist li p {
+    margin: 0;
+}
+
+.step img {
+    float: right;
+}
+
+.step,
+hr {
+    clear: both;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: #9c9;
+    margin: 1em 0 0 0;
+}
